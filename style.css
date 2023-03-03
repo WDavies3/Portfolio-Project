@@ -1,0 +1,60 @@
+.profile-photo{
+    height: 150px;
+}
+
+.lang-photo{
+    height: 125px;
+}
+
+li {
+    margin-top: 15px;
+}
+
+.contact-photo{
+    height: 75px;
+    border-radius: 10%;
+}
+
+.nav-link:hover{
+    color:black;
+    background-color: white;
+}
+
+.nav-link{
+    font-size: 1.25em;
+}
+
+.navbar-nav li{
+    padding: 10px;
+}
+
+#home{
+    padding:400px 0;
+    color: white;
+    background-color: #284b63;
+}
+
+ #about {
+    padding: 250px 0;
+    text-align: center;
+} 
+
+#about p{
+    font-size: 1.25em;
+}
+
+#education{
+    padding:250px 0;
+    color: white;
+    background-color: #284b63;
+}
+
+#projects{
+    padding: 250px 0;
+}
+
+#contact{
+    padding:250px 0;
+    color: white;
+    background-color: #284b63;
+}

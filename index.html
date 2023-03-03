@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William Davies</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+    <!-- heading -->
+    
+    <div class="container bg-dark fixed-top" data-bs-theme="dark">
+        <div class=" d-flex flex-wrap justify-content-between py3 mb-4" >
+
+            <div class="d-flex align-items-center">
+                <img class="m-4 profile-photo rounded-circle" src="./images/profile_photo.jpg" alt="">
+                <h1>W. Davies</h1>
+            </div>
+            
+            <nav class="navbar navbar-expand-md" >
+                <div class="container-fluid">                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#home" >Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#education">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+<!-- home -->
+    <div id="home" class="container d-flex flex-column justify-content-center align-items-center mt-5">
+        <h2>William Davies</h2>
+        <h2>Software Developer</h2>
+    </div>
+<!-- about -->
+    <div id="about" class="container d-flex flex-column justify-content-center mt-5">
+        <h2>About Me:</h2>
+        <p>I have a passion for software development.  I have studied numerous software development languages which include: </p>
+        <div class="d-flex justify-content-between align-items-center mt-5">
+            <img class="lang-photo" src="./images/CPP.png" alt="" onmouseover="picBigger(this)" onmouseleave="picSmaller(this)">
+            <img class="lang-photo" src="./images/Python-Symbol.png" alt="" onmouseover="picBigger(this)" onmouseleave="picSmaller(this)">
+            <img class="lang-photo" src="./images/c-sharp-800x800.png" alt="" onmouseover="picBigger(this)" onmouseleave="picSmaller(this)">
+            <img class="lang-photo" src="./images/VB.jpg" alt="" onmouseover="picBigger(this)" onmouseleave="picSmaller(this)">            
+        </div>
+        <div class="d-flex justify-content-around align-items-center mt-5">
+            <img class="lang-photo" src="./images/TurboPascal.png" alt="" onmouseover="picBigger(this)" onmouseleave="picSmaller(this)">
+            <img class="lang-photo" src="./images/htmlcssjavascript.png" alt="" onmouseover="picBigger(this)" onmouseleave="picSmaller(this)">
+            <img class="lang-photo" src="./images/Eiffel.png" alt="" onmouseover="picBigger(this)" onmouseleave="picSmaller(this)">
+        </div>
+    </div>
+<!-- education -->
+    <div id="education" class="container d-flex flex-column justify-content-center align-items-center mt-5">
+        <h2>Education</h2>
+        <ul>
+            <li>Coding Dojo: 2023
+                <ul>
+                    <li>Coding bootcamp teaching web and software development.  The program teaches front-end, back-end and database development</li>
+                </ul>                
+            </li>
+            <li>
+                Self Study
+                <ul>
+                    <li>
+                        Studied numerous programming languages and operating systems including C++, C#, Visual Basic, Python, Linux, and Windows.
+                    </li>
+                </ul>
+            </li>
+        </ul>        
+    </div>
+<!-- projects -->
+    <div id="projects" class="container d-flex flex-column justify-content-center align-items-center mt-5">
+        <h2>Projects</h2>
+        <h2>Coming Soon</h2>
+        
+    </div> 
+<!-- contact -->
+    <div id="contact" class="container d-flex justify-content-center align-items-center mt-5 flex-column">
+        <h2>Contact Me:</h2>
+        <a href="mailto:bd1440@gmail.com"><img class="contact-photo" src="./images/envelope.jpg" alt="email" ></a>
+        <a href="mailto:bd1440@gmail.com">bd1440@gmail.com</a>   
+    
+    
+    </div>
+
+    <script src="bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
